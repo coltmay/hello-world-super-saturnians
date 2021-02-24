@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One");
+
+/*Typography
+--------------------------------------------------------------*/
+body,
+button,
+input,
+select,
+textarea {
+	color: #404040;
+	font-family: "Comfortaa", Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Patua One", serif;
+  letter-spacing: 2px;
+}
+
+header h1 {
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+	padding-top: 15%;
+}
+
+/*Classes
+--------------------------------------------------------------*/
+.clickImageInfo {
+	text-align: center;
+}
+
+.indexLinks {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.indexLinks h3 {
+	text-align: center;
+}
+
+.indexLinks img {
+	object-fit: cover;
+	width: 300px;
+	height: 300px;
+}
+
+.logo {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	background-color: slategray;
+	font-family: 'Indie Flower', cursive;
+	font-size: 15px;
+}
+
+.nav {
+	background-color: black;
+	display: flex;
+	list-style: none;
+	justify-content: center;
+}
+
+/* .Hunter's Old Code
+nav li {
+	float: left;
+} */
+
+.nav li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.nav li a:hover {
+	background-color: #111;
+}
+
+.country_image {
+	display: flex;
+	justify-content: center;
+}
+
+.country_image img {
+	object-fit: cover;
+	width: 50%;
+	height: 400px;
+	justify-self: center;
+}
+
+.headline {
+	font-size: 175%;
+	text-align: center;
+}
+
+.parent {
+	display: flex;
+	justify-content: center;
+}
+
+.parent h3 {
+	text-align: center;
+}
+
+.cities {
+	padding: 0em 2em;
+	margin: 0em 2em;
+}
+
+.landmarks {
+	padding: 0em 2em;
+	margin: 0em 2em;
+}
+
+.citizens {
+	padding: 0em 2em;
+	margin: 0em 2em;
+}
+
+.italy {
+	background-color:seagreen;
+	color: white;
+}
+
+.aus {
+	background-color: #ba8041;
+	  color: #333;
+}  
+.icelandPage header {
+	padding: auto;
+	background-color: cornflowerblue;
+}
+
+.icelandPage h1, .icelandPage .mainBodyBackground {
+	background-color: cornflowerblue;
+}
+
+.icelandPage h1 {
+	text-align: center;
+}
+
+.icelandPage .logo {
+	background-color: cornflowerblue;
+}

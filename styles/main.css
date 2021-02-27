@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One");
 
+* {
+	margin: 0;
+	padding: 0;
+}
+
 /*Typography
 --------------------------------------------------------------*/
 body,
@@ -49,27 +54,12 @@ footer {
 	height: 300px;
 }
 
-.logo {
-	list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-	background-color: slategray;
-	font-family: 'Indie Flower', cursive;
-	font-size: 15px;
-}
-
 .nav {
 	background-color: black;
 	display: flex;
 	list-style: none;
 	justify-content: center;
 }
-
-/* .Hunter's Old Code
-nav li {
-	float: left;
-} */
 
 .nav li a {
 	display: block;
@@ -109,6 +99,11 @@ nav li {
 	text-align: center;
 }
 
+.listDetails {
+	display: flex;
+	justify-content: center;
+}
+
 .cities {
 	padding: 0em 2em;
 	margin: 0em 2em;
@@ -122,30 +117,4 @@ nav li {
 .citizens {
 	padding: 0em 2em;
 	margin: 0em 2em;
-}
-
-.italy {
-	background-color:seagreen;
-	color: white;
-}
-
-.aus {
-	background-color: #ba8041;
-	  color: #333;
-}  
-.icelandPage header {
-	padding: auto;
-	background-color: cornflowerblue;
-}
-
-.icelandPage h1, .icelandPage .mainBodyBackground {
-	background-color: cornflowerblue;
-}
-
-.icelandPage h1 {
-	text-align: center;
-}
-
-.icelandPage .logo {
-	background-color: cornflowerblue;
 }

@@ -1,5 +1,5 @@
 # Hello, World Travel Brochue
-A group project with [insert teammates here].  Built to demonstrate basic HTML, CSS, and GitHub skills.  Specifically in the context of working as a team.
+A group project with [Hunter Preast](https://github.com/HPreast), [Ethan Mathis](https://github.com/EthanMathis), and [Nick Patton](https://github.com/NSPatton).  Built to demonstrate basic HTML, CSS, and GitHub skills.  Specifically in the context of working as a team.
 
 The following skills were demonstrated:
 * Use of semantic HTML tags
